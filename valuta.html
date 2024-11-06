@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <img src="america.gif" id="nazione">
+
+    <form action="cambio.php" method="get">
+        Importo euro:<br>
+        <input type="text" name="importo"><br>
+        Cambio:<br>
+        <select name="scelta" id="bandiera" onchange="cambioBandiera()">
+            <option value="dollaro">Dollaro</option>
+            <option value="yen">Yen</option>
+            <option value="franchi">Franchi svizzeri</option>
+            <option value="sterline">Sterline</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+
+    <script src="./bandiera.js"></script>
+</body>
+</html>
