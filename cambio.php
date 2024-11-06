@@ -73,7 +73,8 @@
                 echo "<td>$calcoloImportoCommissioni</td>"; 
             echo "</tr>";
         echo "</table>";
-        
+        echo "<br>";
+        echo "<a href='./valuta.html'>Pagina Precedente</a>";
     ?>
 </body>
 </html>
